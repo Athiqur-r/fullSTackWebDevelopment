@@ -7,7 +7,7 @@ app.get('/',function(req,res){
 });
 
 app.get('/about',function(req,res){
-    res.send('I am Raheman');
+    res.send('<h1>I am Raheman</h1>');
 });
 
 app.listen(7000,function(){
